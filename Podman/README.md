@@ -41,5 +41,5 @@ That should be it, Podman is up and running, whenever you restart your computer,
 
 ---
 
-If you want a GUI like Docker Desktop, you can try the Podman-Desktop,
+If you want a GUI like Docker Desktop, you can try the Podman-Desktop,  
 https://podman-desktop.io/
