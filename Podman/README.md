@@ -6,10 +6,10 @@ If you do not have docker installed, Podman is an alternative. I prefer Podman o
 To install Podman, use the following link,
 https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md
 
-After the install, 
+After the install,  
 `Podman machine init`
 
-To keep your Podman up to date,
+To keep your Podman up to date,  
 `Podman machine ssh sudo dnf upgrade -y`
 
 I recommend installing an easy to use text editor, so I ran
