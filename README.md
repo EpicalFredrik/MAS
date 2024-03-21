@@ -1,11 +1,18 @@
 # MAS Maximo Application Suite Notes
 
-My notes regarding installing the Maximo Application Suite.
+I have installed the Maximo Application Suite (MAS) on an IBM Spectrum Fusion server to learn how to install, customize, upgrade and system administration of MAS.  
+[IBM Spectrum Fusion](https://www.ibm.com/products/storage-fusion)  
 
-[Installing Podman](/Podman)  
+I have followed the MAS Devops Collection when installing and this should be considered the official documentation when installing.  
+[MAS Devops Collection](https://ibm-mas.github.io/ansible-devops)  
+
+These are some of the notes gathered during the install.  
+
+[Preparing the Image Registry](/preparingImageRegistry)  
+
+## Other Notes
 
 [Problems with certificates](/CertificateProblems)  
-
 [Fixing problems with Images not being accessible](/ImageRegistryAccess)
-
-[Fixing the ibm-cpp-config ConfigMap](/ibmcppconfig)
+[Fixing the ibm-cpp-config ConfigMap](/ibmcppconfig)  
+[Installing Podman](/Podman)  
