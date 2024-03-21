@@ -8,7 +8,8 @@ Type the following,
 `oc edit image.config.openshift.io/cluster`  
 
 Under “spec:”, add the following:  
-``` spec:  
+```yaml
+spec:  
   allowedRegistriesForImport:  
     - domainName: quay.io  
       insecure: false  
@@ -21,7 +22,7 @@ Under “spec:”, add the following:
       - 'image-registry.openshift-image-registry.svc:5000'  
       - registry.connect.redhat.com  
       - cp.icr.io  
-
+```
 
 If there already is an entry for any of these, add it. Otherwise, you could just switch out the whole spec: section.  
 Save and wait a couple of minutes for the update to be done.
