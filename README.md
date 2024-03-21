@@ -9,8 +9,9 @@ I have followed the MAS Devops Collection when installing and this should be con
 These are some of the notes gathered during the install.  
 
 [Preparing the Image Registry](/preparingImageRegistry)  
-
 [Preparation before installing](/preparation)  
+[Single Node OpenShift (SNO)](/SNO)  
+[OpenShift Cluster](/OpenShiftCluster)  
 
 ## Other Notes
 
