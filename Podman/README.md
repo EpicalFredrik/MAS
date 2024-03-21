@@ -18,7 +18,7 @@ First time you use Podman need to turn off a feature in WSL that will update you
 Enter your machine,  
 `podman machine ssh`  
 Edit the resolv.conf file,  
-`sudo nano /etc/resolv.conf`   
+`sudo vi /etc/resolv.conf`   
 Change Nameserver to 8.8.8.8 or 9.9.9.9  
 
 ```
