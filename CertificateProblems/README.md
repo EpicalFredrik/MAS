@@ -1,7 +1,5 @@
 # Fixing certificate problems
 
----
-
 In order to use MAS properly you need to have valid certificates. If you do not have this setup, you can try a workaround.  
 
 ## Windows
@@ -24,7 +22,6 @@ Exit out and restart browser.
 
 Follow the instructions for Windows to Export the certificate to your computer.  
 Copy the certificate to /etc/pki/ca-trust/source/anchors/  
-
 `sudo cp /home/fredrik/Downloads/public.fusionmas.mas.ibm.com.crt /etc/pki/ca-trust/source/anchors/`  
 And update the ca-trust,  
 `sudo update-ca-trust`  
