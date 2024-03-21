@@ -26,3 +26,13 @@ Copy the certificate to /etc/pki/ca-trust/source/anchors/
 And update the ca-trust,  
 `sudo update-ca-trust`  
 Restart Browser.
+
+## Still not working...
+Click on the padlock and add a security exception, try to log in.  
+If you still get the spinning circle, try the "API" trick.  
+  
+If you try to login with the following link and only get a spinning cirle,  
+https://auth.fusiontest.apps.snoman22nr1.epicalfusion.com/login/#/form  
+Change the URL to have api in the beginning in stead of the first word,  
+https://api.fusiontest.apps.snoman22nr1.epicalfusion.com/login/#/form  
+Add a security exception and try to log in again with the original link.
