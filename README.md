@@ -7,3 +7,5 @@ My notes regarding installing the Maximo Application Suite.
 [Problems with certificates](/CertificateProblems)  
 
 [Fixing problems with Images not being accessible](/ImageRegistryAccess)
+
+[Fixing the ibm-cpp-config ConfigMap](/ibmcppconfig)
