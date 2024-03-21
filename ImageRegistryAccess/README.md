@@ -8,7 +8,7 @@ Type the following,
 `oc edit image.config.openshift.io/cluster`  
 
 Under “spec:”, add the following:  
-> spec:  
+>> spec:  
   allowedRegistriesForImport:  
     - domainName: quay.io  
       insecure: false  
