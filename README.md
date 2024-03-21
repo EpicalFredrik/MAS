@@ -10,6 +10,8 @@ These are some of the notes gathered during the install.
 
 [Preparing the Image Registry](/preparingImageRegistry)  
 
+[Preparation before installing](/preparation)  
+
 ## Other Notes
 
 [Problems with certificates](/CertificateProblems)  

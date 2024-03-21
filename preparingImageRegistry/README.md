@@ -5,19 +5,20 @@ https://www.ibm.com/docs/en/mas-cd/continuous-delivery?topic=installing-enabling
 
 Here are the steps I did in our cluster, these were done in the Openshift Web Console on the Administrative view.  
 
-## Create a PVC to hold image data
+## Create a PVC to hold Image Registry data
 
 1. Go to Storage and then Persistent Volume Claims  
 2. Filter by Projects and select “openshift-image-registry”  
 3. Create a new PVC  
 ![Create PVC](PreparingImageRegistry_1.png)  
-
 * name: image-registry-storage
 * namespace: openshift-image-registry
 * accessModes: - ReadWriteOnce
 * storage: 50Gi
 * storageClassName: sat-ocs-cephfs-gold
 * volumeMode: Filesystem
+
+## Add the PVC to the Internal Image Registry
 
 4. Go to Home and search, expand resources and type in Config  
 ![Search for Config](PreparingImageRegistry_2.png)  
