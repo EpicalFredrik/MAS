@@ -14,7 +14,7 @@ Here are the steps I did in our cluster, these were done in the Openshift Web Co
 * name: image-registry-storage
 * namespace: openshift-image-registry
 * accessModes: - ReadWriteOnce
-* storage: 50Gi
+* storage: 10Gi
 * storageClassName: sat-ocs-cephfs-gold
 * volumeMode: Filesystem
 
